@@ -7,7 +7,7 @@ const TimeSlotList = ({ timeSlots, handleTimeSlotPress }) => {
       title={item.time}
       onPress={() => handleTimeSlotPress(item)}
       disabled={!item.available}
-      color={item.available ? 'red' : 'gray'}
+      color={item.available ? 'blue' : 'gray'}
       style={styles.timeSlotButton}
     />
   );
